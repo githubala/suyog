@@ -1,0 +1,29 @@
+.products {
+    display: flex ;
+    width: 1154px;
+    padding: 0 286px 30px 480px;
+}
+.modal {
+    position: absolute;
+    width: 1920px;
+    height: 1930px;
+    left: 0px;
+    top: 0px;
+    background: rgba(93, 99, 111, 0.7);
+}
+.modal-content {
+    background: white;
+    width: 944px;
+    margin: 544px 489px 1146px 487px;
+}
+.removeBtn {
+    color: #DE4F60;
+    background: none;
+    border: none;
+}
+.unchecked .removeBtn {
+    display: none;
+}
+.checked .removeBtn {
+    display: block;
+}

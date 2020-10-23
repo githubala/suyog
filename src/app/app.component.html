@@ -1,0 +1,19 @@
+<div class="products">
+  
+  <div [ngClass]="isRemove ? 'checked' : 'unchecked'">
+    <div *ngFor="let item of products">
+      <app-product [productData]="item" (removeitem)="removeitem($event)" ></app-product>
+    </div>
+    
+    
+  </div>
+  <div>
+    <app-add-or-remove (addProduct)="addItem()" (removeBtn)="showRemovebtn()"></app-add-or-remove>
+  </div>
+</div>
+<div id="myModal" class="modal" *ngIf="isModal">
+  <div class="modal-content">
+    <app-add-product-modal (addprod)="addnewprod($event)" (closeModal)="close()"></app-add-product-modal>
+  </div>  
+</div>
+

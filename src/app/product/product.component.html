@@ -1,0 +1,44 @@
+<div class="productInfo">
+    <div class="productImg">
+      <img [src]="productData.image">
+    </div>
+    <div class="ProdAction">
+      <div class="prodName">
+        <h2>{{productData.productName}}</h2>
+        <button class="removeBtn" (click)="remove(productData.productName)">Remove Product</button>
+      </div>
+      <div class="prodDetails">
+        <div>
+          <div>
+            Attribute: value1
+          </div>
+          <div>
+            Attribute: value2
+          </div>
+          <div>
+            Attribute: value3
+          </div>
+          <div>
+            {{productData.minOrders}}
+          </div>
+          <div>
+            {{productData.location}}
+          </div>
+        </div>
+        <div>
+          <div>{{productData.deliveryTime}}</div>
+          <div><button>Ask for Price</button></div>
+        </div>
+        <div class="prodButtons">
+          <button>Add to Favourite</button>
+          <button>Add to compare</button>      
+          <button>Short list Product</button>      
+          <button>Add to cart</button>
+          <button>Contact seller</button>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+</div>

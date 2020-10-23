@@ -1,0 +1,26 @@
+.addRemoveBtns button:first-child {
+    margin-bottom: 15px;
+}
+.addBtn {
+    height: 50px;
+    width: 120px;
+    left: 1478px;
+    top: 357px;
+    border-radius: 5px;
+    border: 1px solid #0E8543;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color: #0E8543 ;
+    background: rgba(14, 133, 67, 0.1);
+}
+.removeBtn {
+    height: 50px;
+    width: 157px;
+    left: 1477px;
+    top: 422px;
+    border: 1px solid #DE4F60;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color: #DE4F60;
+    background: rgba(222, 79, 96, 0.1);
+}

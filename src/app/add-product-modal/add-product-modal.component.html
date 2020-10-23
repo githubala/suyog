@@ -1,0 +1,47 @@
+<div class="addProdModal">
+    <div class="addImg">
+        <input type="text" id='imgUrl' [(ngModel)]="imgPath" placeholder="Enter the image URl">
+    </div>
+    <div class="form">
+        <div>
+            <div>
+                <input type="text" id='prodName' [(ngModel)]="prodname" placeholder="Product name">
+            </div>
+            <div class="addProdInputs">
+                <div>
+                    <div class="attributes">
+                        <div class="addAttrlabel">
+                            <div>Attribute 1:</div>
+                            <div>Attribute 2:</div>
+                            <div>Attribute 3:</div>
+                        </div>
+                        <div class="addAttrValues">
+                            <input type="text" id='attr1' [(ngModel)]="art1" placeholder="value">
+                            <input type="text" id='attr2' [(ngModel)]="art2" placeholder="value">
+                            <input type="text" id='attr3' [(ngModel)]="art3" placeholder="value">
+                        </div>
+                    </div>
+                    <div class="addLocOrder">
+                        <input type="text" id='pieces' [(ngModel)]="pieces" placeholder="pieces min order">
+                        <input type="text" id='location' [(ngModel)]="location" placeholder="Location">
+                    </div>
+                </div>
+                <div class="addTimePrice">
+                    <input type="text" id='deliverytime'  [(ngModel)]="deliveryTime" placeholder="Delivery Time">
+                    <input type="text" id='ratings'  [(ngModel)]="ratings" placeholder="Ratings">
+                    <input type="text" id='price'  [(ngModel)]="price" placeholder="price">
+                </div>
+            </div>  
+        </div>
+        <div class="addRemoveButtons">
+            <div class="updateBtn">
+                <button (click)="getFormdata()" class="updateCloseBtn">update and close</button>
+            </div> 
+            <div>
+                <div (click)="close()" class="closeBtn"><img src="../../assets/close.svg"></div>
+            </div>
+        </div>
+         
+    </div>
+    
+</div>

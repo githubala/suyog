@@ -1,0 +1,117 @@
+.attributes {
+    display: flex;
+    margin-bottom: 11px;
+}
+.attributes input {
+    margin-bottom: 8px;
+    width: 103px;
+}
+.addAttrlabel > div{
+    height: 24px;
+    width: 103px;
+    left: 339px;
+    top: 55px;
+    border-radius: 0px;
+    background: #F2F2F2;
+    color: #5D636F;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 9px;
+    margin-bottom: 8px;
+}
+.addProdModal {
+    display: flex;
+}
+.addImg {
+    height: 240px;
+width: 330px;
+left: 0px;
+top: 0px;
+border-radius: 0px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #C4C4C4;
+}
+.addImg input{
+    height: 38px;
+    width: 217px;
+    left: 56px;
+    top: 96px;
+    border-radius: 20px;
+    border: 1px solid #C4C4C4;
+    text-align: center;
+}
+.form {
+    display: flex;
+    width: 614px;
+    padding: 15px  0 ;
+}
+.form input{
+    background: #F2F2F2;
+    border: none;
+    color: #5D636F;
+    font-size: 16px;
+    padding-left: 9px;
+    margin-left: 12px;
+    height: 24px;
+}
+#prodName {
+    height: 30px;
+    width: 350px;
+    left: 340px;
+    top: 13px;
+    border-radius: 0px;
+    background: #F2F2F2;
+    border: none;
+    color: #5D636F;
+    font-size: 16px;
+    padding-left: 9px;
+    margin-bottom: 11px;
+}
+.addProdInputs {
+    display: flex;
+}
+.addLocOrder , .addTimePrice  {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.addLocOrder input {
+    margin-bottom: 8px;
+    width: 160px;
+}
+.addTimePrice input {
+    margin-bottom: 8px;
+    width: 160px;
+}
+.addLocOrder input:last-child, .addTimePrice input:last-child, .attributes input:last-child {
+    margin-bottom: 0;
+}
+.addAttrValues {
+    display: flex;
+    flex-direction: column;
+}
+.addRemoveButtons {
+    display: flex;
+    margin-left: 25px;
+}
+.addRemoveButtons .updateBtn {
+    display: flex;
+    align-items: flex-end;
+}
+.updateBtn button{
+    border: none;
+    color:#fff;
+}
+.updateCloseBtn {
+    height: 34px;
+    width: 139px;
+    border-radius: 0px;
+    background: #0E8543;
+}
+.closeBtn img {
+    width: 18px;
+}
